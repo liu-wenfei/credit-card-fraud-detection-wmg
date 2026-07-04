@@ -1,5 +1,7 @@
 # Credit Card Fraud Detection
 
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue) ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
 A comparative study of machine learning and deep learning approaches for credit card fraud detection on an imbalanced dataset.
 
 ## Overview
