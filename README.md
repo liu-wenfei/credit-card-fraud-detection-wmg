@@ -6,6 +6,8 @@ A comparative study of machine learning and deep learning approaches for credit 
 
 [Project page on my personal website](https://wenfei.space/projects/credit-card-fraud-detection)
 
+![PR curves for all six models with 95% bootstrap confidence intervals](figures/pr-curves-six-model.png)
+
 ## Overview
 
 This project explores fraud detection using the public ULB Credit Card Fraud Dataset. It compares several models and techniques, including:
@@ -34,6 +36,10 @@ The focus is not only on model accuracy, but also on handling class imbalance, t
 - Investigates concept drift over time and its impact on model performance
 - Uses SHAP-based interpretability analysis for model explanation
 - Includes an MLOps simulation: versioned model registry with CI/CD promotion gates, PSI-based drift monitoring, automated retraining triggers, and champion/challenger canary rollout with statistical rollback rules
+
+![FFN incremental retraining vs full retraining, and FedAvg federated learning across three simulated banks](ffn_incremental_federated.png)
+
+*Incremental retraining tracks full retraining within ~0.02 PR-AUC; federated FedAvg training reaches PR-AUC 0.750 vs. 0.766 centralized (a 2.1% gap) — validating both as viable deployment strategies.*
 
 ## Requirements
 
