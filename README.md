@@ -4,6 +4,8 @@
 
 A comparative study of machine learning and deep learning approaches for credit card fraud detection on an imbalanced dataset.
 
+[Project page on my personal website](https://wenfei.space/projects/credit-card-fraud-detection)
+
 ## Overview
 
 This project explores fraud detection using the public ULB Credit Card Fraud Dataset. It compares several models and techniques, including:
@@ -31,6 +33,7 @@ The focus is not only on model accuracy, but also on handling class imbalance, t
 - Evaluates models using PR-AUC, F1 score, recall, and calibration-related analysis
 - Investigates concept drift over time and its impact on model performance
 - Uses SHAP-based interpretability analysis for model explanation
+- Includes an MLOps simulation: versioned model registry with CI/CD promotion gates, PSI-based drift monitoring, automated retraining triggers, and champion/challenger canary rollout with statistical rollback rules
 
 ## Requirements
 
