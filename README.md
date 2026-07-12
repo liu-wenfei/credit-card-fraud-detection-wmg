@@ -1,6 +1,6 @@
 # Credit Card Fraud Detection
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue) ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue) ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
 A comparative study of machine learning and deep learning approaches for credit card fraud detection on an imbalanced dataset.
 
@@ -34,12 +34,12 @@ The focus is not only on model accuracy, but also on handling class imbalance, t
 
 ## Requirements
 
-Python 3.9+ is recommended.
+Python 3.10+ is required.
 
 Install dependencies with:
 
 ```bash
-pip install numpy pandas matplotlib seaborn torch scikit-learn shap kagglehub jupyter ipykernel
+pip install -r requirements.txt
 ```
 
 ## Usage

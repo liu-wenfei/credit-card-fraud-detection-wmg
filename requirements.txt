@@ -1,0 +1,22 @@
+# Loose lower-bound versions; target Python 3.10+
+
+# core
+numpy>=2.4.6
+pandas>=3.0.3
+scipy>=1.18.0
+scikit-learn>=1.9.0
+
+# deep learning
+torch>=2.0.0
+
+# plotting
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# interpretability & data
+shap>=0.52.0
+kagglehub>=1.0.2
+
+# notebook runtime
+jupyter>=1.0.0
+ipykernel>=6.0.0
